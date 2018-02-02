@@ -40,4 +40,4 @@ plugins:
 feed:
   path: feeds/posts/default
 
-permalink: /:category/:year/:month/:title.html
+permalink: /:year/:month/:title.html
