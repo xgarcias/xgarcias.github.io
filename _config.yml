@@ -24,7 +24,6 @@ markdown: kramdown
 #theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-archives
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -38,16 +37,5 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-jekyll-archives:
-  enabled:
-    - year
-    - month
-  layouts:
-    year: 'year'
-    month: 'month'
-  permalinks:
-    year: '/archives/:year/'
-    month: '/archives/:year/:month/'
 
-
-permalink: /:year/:month/:title.html
+permalink: /category/:year/:month/:title.html
