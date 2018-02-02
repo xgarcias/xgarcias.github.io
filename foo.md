@@ -1,5 +1,5 @@
 ---
-layout: home
-title: Test
-permalink: /test/
+#layout: home
+#title: Test
+#permalink: /test/
 ---
