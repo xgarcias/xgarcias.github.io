@@ -41,3 +41,5 @@ feed:
   path: feeds/posts/default
 
 permalink: /:year/:month/:title.html
+
+excerpt_separator: "<!--more-->"
