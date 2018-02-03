@@ -14,9 +14,6 @@ blogger_id: tag:blogger.com,1999:blog-8534555958859253862.post-58731249977485952
 blogger_orig_url: http://www.shellguardians.com/2016/08/building-dns-sinkhole-in-freebsd-with.html
 ---
 
-Introduction
-------------
-
 There is already lots of literature regarding [DNS sinkholes](https://www.sans.org/reading-room/whitepapers/dns/dns-sinkhole-33523) and it is a [common term](https://en.wikipedia.org/wiki/DNS_sinkhole) in
 Information Security. In my case, I wanted to give it a try on FreeBSD 10 but I didn't want to make use of [Bind](https://www.isc.org/) since it was removed from the base distribution in favor of [Unbound](https://www.unbound.net/).
 
@@ -54,7 +51,7 @@ will be located in **/etc/unbound/unbound.conf** instead of
 **/usr/local/etc/unbound/unbound.conf.**
 
 
-### **Basic Unbound configuration**
+### Basic Unbound configuration
 
 First, we have to download the root-hints, to allow our dns cache to
 find the right master DNS servers.
