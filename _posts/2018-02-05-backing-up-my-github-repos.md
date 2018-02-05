@@ -12,7 +12,7 @@ I am using [runwhen](http://code.dogmap.org/runwhen/) together with  [daemontool
 
 
 
-The run script listed below, uses some runwhen commands (rw-add,rw-matchand rw-sleep) to wake-up every hour and [setuidgid](https://cr.yp.to/daemontools/setuidgid.html) to run the service with an unprivileged user.
+The run script listed below uses some runwhen commands (rw-add,rw-matchand rw-sleep) to wake-up every hour and [setuidgid](https://cr.yp.to/daemontools/setuidgid.html) to run the service with an unprivileged user.
 
 ```shell
 #!/bin/sh
