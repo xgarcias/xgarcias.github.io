@@ -30,8 +30,8 @@ We are using Munin for graphing, that also forwards the alerts to our Icinga sat
 Searching for the right solution
 ================================
 
-Going full managed
-------------------
+Going fully managed
+-------------------
 
 A simple solution is going to a fully managed monitoring platform, in our case Cloudwatch. This way we could get rid of the burden that is the setup and management.
 
